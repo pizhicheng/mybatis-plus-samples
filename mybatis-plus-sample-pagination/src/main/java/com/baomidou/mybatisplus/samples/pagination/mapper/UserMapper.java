@@ -61,4 +61,5 @@ public interface UserMapper extends BaseMapper<User> {
     List<User> iPageSelect(IPage<User> myPage);
 
     List<User> rowBoundList(RowBounds rowBounds, Map<String, Object> map);
+
 }
